@@ -1,0 +1,21 @@
+Script to follow for class:
+1. Create repo and git push
+    0. "Show how to share it with other people."
+    # Commands:
+    I. git init
+    II. git add .
+    III. git commit -m "First Commit"
+    IV. push https://github.com/josejuanWSB/test_repo.git master
+2. Git pull
+    I. Change something in the remote repo by the GitHub editor (right corner inside of a file)
+    # Command:
+    II. git pull https://github.com/josejuanWSB/test_repo.git master
+3. Git merge/solving conflicts
+    I. Change a line in the remote repo and make a commit by GitHub editor, like before.
+    II. Change the same line in the local repo by adding something different than in the remote repo
+    # Commands:
+    III. Try to -> git pull https://github.com/josejuanWSB/test_repo.git master
+    IV. It fails, so:
+        a. First you need to add and reflect the changes
+        # Commands:
+        b.
