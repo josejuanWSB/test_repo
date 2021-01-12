@@ -18,4 +18,8 @@ Script to follow for class:
     IV. It fails, so:
         a. First you need to add and reflect the changes
         # Commands:
-        b.
+        b. git add .
+        c. git commit -m "Committing on local repo"
+        d. git pull https://github.com/josejuanWSB/test_repo.git master
+        ## There is a conflict, that needs to be solved manually.
+
