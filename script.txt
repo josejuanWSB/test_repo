@@ -1,4 +1,5 @@
 Script to follow for class:
+
 1. Create repo and git push
     0. "Show how to share it with other people."
     # Commands:
@@ -6,10 +7,14 @@ Script to follow for class:
     II. git add .
     III. git commit -m "First Commit"
     IV. push https://github.com/josejuanWSB/test_repo.git master
+    
+    
 2. Git pull
     I. Change something in the remote repo by the GitHub editor (right corner inside of a file)
     # Command:
     II. git pull https://github.com/josejuanWSB/test_repo.git master
+    
+    
 3. Git merge/solving conflicts
     I. Change a line in the remote repo and make a commit by GitHub editor, like before.
     II. Change the same line in the local repo by adding something different than in the remote repo
@@ -21,5 +26,10 @@ Script to follow for class:
         b. git add .
         c. git commit -m "Committing on local repo"
         d. git pull https://github.com/josejuanWSB/test_repo.git master
-        ## There is a conflict, that needs to be solved manually.
+    ## There is a conflict, that needs to be solved manually.
+        0. Go to the file and delete the comments by git and the code that you don't want
+        a. git add .
+        b. git commit -m "Conflict resolved"
+        c. git push https://github.com/josejuanWSB/test_repo.git master
+        d. try to git pull: "Already up to date"
 
