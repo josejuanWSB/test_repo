@@ -1,12 +1,15 @@
 Script to follow for class:
 
+0. To clone the repo:
+    I. git clone https://github.com/josejuanWSB/test_repo.git master
+
 1. Create repo and git push
     0. "Show how to share it with other people."
     # Commands:
     I. git init
     II. git add .
     III. git commit -m "First Commit"
-    IV. push https://github.com/josejuanWSB/test_repo.git master
+    IV. git push https://github.com/josejuanWSB/test_repo.git master
     
     
 2. Git pull
@@ -33,3 +36,4 @@ Script to follow for class:
         c. git push https://github.com/josejuanWSB/test_repo.git master
         d. try to git pull: "Already up to date"
 
+    ## If prompts the vi/unix editor -> :wq (save and exit)
